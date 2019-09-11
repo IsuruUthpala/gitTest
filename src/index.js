@@ -6,6 +6,7 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import * as serviceWorker from "./serviceWorker";
 import Counter from "./components/counter";
+console.log("git branch");
 
 ReactDOM.render(<Counter></Counter>, document.getElementById("root"));
 
